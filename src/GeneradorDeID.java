@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class GeneradorDeID {
     public static void main(String[] args) {
+//      Crea un algoritmo que tome las primeras letras del nombre las primeras letras de apellido
+//      los ultimos dijitos de la fecha de mecimiento y un numero aleatorio de 4 digitos en caso
+//      de que el numero a leatorio te de solo 3 rellenar con 0
         Scanner consola = new Scanner(System.in);
         Random random = new Random();
 
